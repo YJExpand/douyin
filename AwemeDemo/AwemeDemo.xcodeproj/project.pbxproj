@@ -13,9 +13,13 @@
 		90861AA725908CB7008193DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90861AA625908CB7008193DE /* main.m */; };
 		90861AC825908F69008193DE /* AWMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90861AC725908F69008193DE /* AWMainController.m */; };
 		90861AD025909615008193DE /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 90861ACF25909615008193DE /* UIColor+Extension.m */; };
+		A9082E15A8C39BBDAFE0AE21 /* Pods_AwemeDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174BDFBFD10BA9A40787A219 /* Pods_AwemeDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		174BDFBFD10BA9A40787A219 /* Pods_AwemeDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwemeDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35ED950D207F3170896C3B2D /* Pods-AwemeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwemeDemo.release.xcconfig"; path = "Target Support Files/Pods-AwemeDemo/Pods-AwemeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		84F8DC4755F236516F619C49 /* Pods-AwemeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwemeDemo.debug.xcconfig"; path = "Target Support Files/Pods-AwemeDemo/Pods-AwemeDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		90861A9125908CB4008193DE /* AwemeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwemeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90861A9425908CB4008193DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		90861A9525908CB4008193DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -36,17 +40,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9082E15A8C39BBDAFE0AE21 /* Pods_AwemeDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20F5B3491351378AA6E26EE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				174BDFBFD10BA9A40787A219 /* Pods_AwemeDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84E077E7F28C98F6C2CD6652 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84F8DC4755F236516F619C49 /* Pods-AwemeDemo.debug.xcconfig */,
+				35ED950D207F3170896C3B2D /* Pods-AwemeDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		90861A8825908CB4008193DE = {
 			isa = PBXGroup;
 			children = (
 				90861A9325908CB4008193DE /* AwemeDemo */,
 				90861A9225908CB4008193DE /* Products */,
+				84E077E7F28C98F6C2CD6652 /* Pods */,
+				20F5B3491351378AA6E26EE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -268,9 +293,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90861AAA25908CB7008193DE /* Build configuration list for PBXNativeTarget "AwemeDemo" */;
 			buildPhases = (
+				999360E964FB6DA450AA74FD /* [CP] Check Pods Manifest.lock */,
 				90861A8D25908CB4008193DE /* Sources */,
 				90861A8E25908CB4008193DE /* Frameworks */,
 				90861A8F25908CB4008193DE /* Resources */,
+				99FAB8D55AF9D3F07BF346A7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -323,6 +350,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		999360E964FB6DA450AA74FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AwemeDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99FAB8D55AF9D3F07BF346A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AwemeDemo/Pods-AwemeDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AwemeDemo/Pods-AwemeDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AwemeDemo/Pods-AwemeDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		90861A8D25908CB4008193DE /* Sources */ = {
@@ -464,6 +533,7 @@
 		};
 		90861AAB25908CB7008193DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F8DC4755F236516F619C49 /* Pods-AwemeDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -483,6 +553,7 @@
 		};
 		90861AAC25908CB7008193DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35ED950D207F3170896C3B2D /* Pods-AwemeDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
