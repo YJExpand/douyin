@@ -12,4 +12,13 @@
 #import "AWColorMacros.h"
 #import "UIColor+Extension.h"
 
+/* 第三方*******************************/
+#import <MJRefresh/MJRefresh.h>
+#import <MJExtension/MJExtension.h>
+#import <AFNetworking/AFNetworking.h>
+#import <JXCategoryView/JXCategoryView.h>
+
+/* 网络工具类*******************************/
+#import "AWNetworkManager.h"
+
 #endif /* AWeme_pch */
