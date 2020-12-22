@@ -20,5 +20,6 @@
 
 /* 网络工具类*******************************/
 #import "AWNetworkManager.h"
+#import "AWApiConst.h"
 
 #endif /* AWeme_pch */

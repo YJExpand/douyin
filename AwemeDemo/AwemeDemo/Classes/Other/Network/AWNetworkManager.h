@@ -8,6 +8,10 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
+typedef enum : NSUInteger {
+    GET,
+    POST,
+} HTTPMethod;
 
 @interface AWNetworkManager : NSObject
 
