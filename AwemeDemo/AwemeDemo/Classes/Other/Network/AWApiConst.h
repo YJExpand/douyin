@@ -22,4 +22,7 @@ UIKIT_EXTERN NSString *const Api_HomeRemmendFollowlist;
 // 首页附近列表
 UIKIT_EXTERN NSString *const Api_HomeRemmendNearbylist;
 
+// 个人信息
+UIKIT_EXTERN NSString *const Api_MineInfo;
+
 NS_ASSUME_NONNULL_END

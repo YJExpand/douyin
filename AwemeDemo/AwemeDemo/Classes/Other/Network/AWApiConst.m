@@ -19,3 +19,6 @@ NSString *const Api_HomeRemmendFollowlist = @"aweme/v2/follow/feed";
 
 // 首页附近列表
 NSString *const Api_HomeRemmendNearbylist = @"aweme/v1/nearby/feed";
+
+// 个人信息
+NSString *const Api_MineInfo = @"aweme/v1/user/profile/self";
