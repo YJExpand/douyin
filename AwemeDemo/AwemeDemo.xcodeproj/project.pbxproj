@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C6E1A2E25E7403D00676B45 /* AWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E1A2D25E7403D00676B45 /* AWBaseViewController.m */; };
+		2C6E1A3325E7405F00676B45 /* AWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E1A3225E7405F00676B45 /* AWHomeViewController.m */; };
+		2C6E1A3725E7407400676B45 /* AWFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E1A3625E7407400676B45 /* AWFriendViewController.m */; };
+		2C6E1A3B25E7408300676B45 /* AWMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E1A3A25E7408300676B45 /* AWMessageViewController.m */; };
+		2C6E1A4325E740A000676B45 /* AWMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E1A4225E740A000676B45 /* AWMineViewController.m */; };
+		2C6E1A4825E7416800676B45 /* AWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E1A4725E7416800676B45 /* AWNavigationController.m */; };
+		2C6E1A4C25E745FD00676B45 /* AWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E1A4B25E745FD00676B45 /* AWTabBar.m */; };
+		2C6E1A7325E79E7800676B45 /* AWPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E1A7225E79E7800676B45 /* AWPublishViewController.m */; };
 		906B99FE25919F6F00400D67 /* AWNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 906B99FD25919F6F00400D67 /* AWNetworkManager.m */; };
 		906B9A032591A5BB00400D67 /* AWApiConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 906B9A022591A5BB00400D67 /* AWApiConst.m */; };
 		90861A9625908CB4008193DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90861A9525908CB4008193DE /* AppDelegate.m */; };
@@ -20,6 +28,22 @@
 
 /* Begin PBXFileReference section */
 		174BDFBFD10BA9A40787A219 /* Pods_AwemeDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwemeDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6E1A2C25E7403D00676B45 /* AWBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWBaseViewController.h; sourceTree = "<group>"; };
+		2C6E1A2D25E7403D00676B45 /* AWBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWBaseViewController.m; sourceTree = "<group>"; };
+		2C6E1A3125E7405F00676B45 /* AWHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWHomeViewController.h; sourceTree = "<group>"; };
+		2C6E1A3225E7405F00676B45 /* AWHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWHomeViewController.m; sourceTree = "<group>"; };
+		2C6E1A3525E7407400676B45 /* AWFriendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWFriendViewController.h; sourceTree = "<group>"; };
+		2C6E1A3625E7407400676B45 /* AWFriendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWFriendViewController.m; sourceTree = "<group>"; };
+		2C6E1A3925E7408300676B45 /* AWMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWMessageViewController.h; sourceTree = "<group>"; };
+		2C6E1A3A25E7408300676B45 /* AWMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWMessageViewController.m; sourceTree = "<group>"; };
+		2C6E1A4125E740A000676B45 /* AWMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWMineViewController.h; sourceTree = "<group>"; };
+		2C6E1A4225E740A000676B45 /* AWMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWMineViewController.m; sourceTree = "<group>"; };
+		2C6E1A4625E7416800676B45 /* AWNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWNavigationController.h; sourceTree = "<group>"; };
+		2C6E1A4725E7416800676B45 /* AWNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWNavigationController.m; sourceTree = "<group>"; };
+		2C6E1A4A25E745FD00676B45 /* AWTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWTabBar.h; sourceTree = "<group>"; };
+		2C6E1A4B25E745FD00676B45 /* AWTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWTabBar.m; sourceTree = "<group>"; };
+		2C6E1A7125E79E7800676B45 /* AWPublishViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWPublishViewController.h; sourceTree = "<group>"; };
+		2C6E1A7225E79E7800676B45 /* AWPublishViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWPublishViewController.m; sourceTree = "<group>"; };
 		35ED950D207F3170896C3B2D /* Pods-AwemeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwemeDemo.release.xcconfig"; path = "Target Support Files/Pods-AwemeDemo/Pods-AwemeDemo.release.xcconfig"; sourceTree = "<group>"; };
 		84F8DC4755F236516F619C49 /* Pods-AwemeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwemeDemo.debug.xcconfig"; path = "Target Support Files/Pods-AwemeDemo/Pods-AwemeDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		906B99FC25919F6F00400D67 /* AWNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWNetworkManager.h; sourceTree = "<group>"; };
@@ -59,6 +83,87 @@
 				174BDFBFD10BA9A40787A219 /* Pods_AwemeDemo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C6E1A2B25E7402300676B45 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2C6E1A2C25E7403D00676B45 /* AWBaseViewController.h */,
+				2C6E1A2D25E7403D00676B45 /* AWBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2C6E1A3D25E7409400676B45 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		2C6E1A3E25E7409400676B45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C6E1A3F25E7409400676B45 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C6E1A4125E740A000676B45 /* AWMineViewController.h */,
+				2C6E1A4225E740A000676B45 /* AWMineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2C6E1A4025E7409400676B45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C6E1A6C25E79E4900676B45 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				2C6E1A6D25E79E4900676B45 /* Controller */,
+				2C6E1A6E25E79E4900676B45 /* Manager */,
+				2C6E1A6F25E79E4900676B45 /* Model */,
+				2C6E1A7025E79E4900676B45 /* View */,
+			);
+			name = Publish;
+			path = AwemeDemo/Classes/Publish;
+			sourceTree = SOURCE_ROOT;
+		};
+		2C6E1A6D25E79E4900676B45 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C6E1A7125E79E7800676B45 /* AWPublishViewController.h */,
+				2C6E1A7225E79E7800676B45 /* AWPublishViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2C6E1A6E25E79E4900676B45 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		2C6E1A6F25E79E4900676B45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C6E1A7025E79E4900676B45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		84E077E7F28C98F6C2CD6652 /* Pods */ = {
@@ -115,6 +220,7 @@
 				90861AB625908E26008193DE /* Main */,
 				90861AC025908E26008193DE /* Home */,
 				90861ABA25908E26008193DE /* Friend */,
+				2C6E1A6C25E79E4900676B45 /* Publish */,
 				90861AB125908E26008193DE /* Message */,
 				90861ABF25908E26008193DE /* Mine */,
 				90861AC525908EA0008193DE /* Other */,
@@ -136,6 +242,8 @@
 		90861AB225908E26008193DE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2C6E1A3925E7408300676B45 /* AWMessageViewController.h */,
+				2C6E1A3A25E7408300676B45 /* AWMessageViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -173,6 +281,8 @@
 		90861AB725908E26008193DE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2C6E1A4625E7416800676B45 /* AWNavigationController.h */,
+				2C6E1A4725E7416800676B45 /* AWNavigationController.m */,
 				90861AC625908F69008193DE /* AWMainController.h */,
 				90861AC725908F69008193DE /* AWMainController.m */,
 			);
@@ -182,6 +292,8 @@
 		90861AB925908E26008193DE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2C6E1A4A25E745FD00676B45 /* AWTabBar.h */,
+				2C6E1A4B25E745FD00676B45 /* AWTabBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -200,6 +312,8 @@
 		90861ABB25908E26008193DE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2C6E1A3525E7407400676B45 /* AWFriendViewController.h */,
+				2C6E1A3625E7407400676B45 /* AWFriendViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -228,6 +342,10 @@
 		90861ABF25908E26008193DE /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				2C6E1A3F25E7409400676B45 /* Controller */,
+				2C6E1A3D25E7409400676B45 /* Manager */,
+				2C6E1A3E25E7409400676B45 /* Model */,
+				2C6E1A4025E7409400676B45 /* View */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -246,6 +364,8 @@
 		90861AC125908E26008193DE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2C6E1A3125E7405F00676B45 /* AWHomeViewController.h */,
+				2C6E1A3225E7405F00676B45 /* AWHomeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -274,6 +394,7 @@
 		90861AC525908EA0008193DE /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				2C6E1A2B25E7402300676B45 /* Base */,
 				906B99FB25919F1B00400D67 /* Network */,
 				90861ACC25909580008193DE /* Category */,
 				90861A9425908CB4008193DE /* AppDelegate.h */,
@@ -416,11 +537,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				906B99FE25919F6F00400D67 /* AWNetworkManager.m in Sources */,
+				2C6E1A4C25E745FD00676B45 /* AWTabBar.m in Sources */,
+				2C6E1A3325E7405F00676B45 /* AWHomeViewController.m in Sources */,
+				2C6E1A3B25E7408300676B45 /* AWMessageViewController.m in Sources */,
+				2C6E1A7325E79E7800676B45 /* AWPublishViewController.m in Sources */,
+				2C6E1A4825E7416800676B45 /* AWNavigationController.m in Sources */,
 				90861A9625908CB4008193DE /* AppDelegate.m in Sources */,
+				2C6E1A4325E740A000676B45 /* AWMineViewController.m in Sources */,
 				90861AC825908F69008193DE /* AWMainController.m in Sources */,
 				90861AA725908CB7008193DE /* main.m in Sources */,
+				2C6E1A3725E7407400676B45 /* AWFriendViewController.m in Sources */,
 				906B9A032591A5BB00400D67 /* AWApiConst.m in Sources */,
 				90861AD025909615008193DE /* UIColor+Extension.m in Sources */,
+				2C6E1A2E25E7403D00676B45 /* AWBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

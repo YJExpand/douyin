@@ -11,4 +11,5 @@ pod 'AFNetworking', '~> 4.0'
 pod 'MJExtension'
 pod 'MJRefresh'
 pod 'JXCategoryView'
+pod 'Masonry'
 end
